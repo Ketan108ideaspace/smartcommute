@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font-weight:400;}
+#header-fixed-menu-wrap, #top-bar, #rainbow, #footer-wrap, aside, .share-box, .share-bottom, .bottom-chiclets, .side-chiclets, .connect-tab, #banner {
+    display: none;
+}
+
+#page, .main-content {
+    background: none;
+}
+
+body.printprofile #top-bar,body.printprofile .header-top-right, body.printprofile .header-wrap-nav, body.printprofile .contacts-mob, body.printprofile .header-wrap-nav, body.printprofile .breadcrumb-wrap, body.printprofile .sticky-menu-wrap, body.printprofile .emailNewsletter, body.printprofile .testimonials, body.printprofile #footer-wrap, body.printprofile .footer-bottom, body.printprofile .back-to-top, #people, .vcard-link, .pdf-link, .people-social-icons, .print, .menu-mob, body.printprofile .blue-stripe{ display:none;box-shadow:none;}
+.search-wrap, .generic-wrap, .insight-wrap, .backstage-wrap{ float:left;}
+.search-result, .inside-pages h1.people-title, .people-dtl-wrap{ width:100%; max-width:100%; clear:both;}
+h1 span.job-title
+.people-dtl-wrap{ width:900px;}
+.people-contact{width:150px; float:left; margin-right:20px;}
+body.printprofile .people-top-row{margin-bottom:20px;}
+body.printprofile .people-top-row .grey-wrap{ float:left; width:400px;padding: 10px 0px;
+    background: #e8e8e8;}
+body.printprofile .people-contact .short-info{ margin-top:-18px;}	
+body.printprofile .people-profile{ width:400px; float:left; }
+.header-wrap-logo, body.printprofile header, body.printprofile header.sticky .sticky-menu-wrap{ position:static !important;box-shadow:none; width:600px; margin-left:15px;}

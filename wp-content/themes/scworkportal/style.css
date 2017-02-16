@@ -1,0 +1,59 @@
+/*
+ Theme Name:   Smart Commute Portal
+ Theme URI:    http://wordpress.com
+ Description:  Theme for smart commute portal
+ Author:       Poonam Kesharvani
+ Author URI:  http://wordpress.com
+ Template: twentysixteen
+ Version: 1.0.0
+
+*/
+
+@import url("assets/style.css");
+
+
+.error{
+	
+	color:red;
+}
+
+#step2, #step3, #step4,#step5{
+	
+	display:none;
+}
+.success{
+	
+	color:green;
+}
+.tabcontent{
+	
+	display: none;
+}
+
+ul#tabs{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+}
+
+ul#tabs li {
+    float: left;
+}
+
+ul#tabs li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+ul#tabs li a:hover {
+    background-color: #111;
+}
+ul#tabs li a.active {
+    background-color: #111;
+}
